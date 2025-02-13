@@ -20,9 +20,9 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '8022877397:AAG_GXizV51nYPVjhikMv80Pkhh4YJS
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7077129266').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/masoom_jaatt") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002330381190'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+ogHhhiNxsu01NmQ1')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002378681854').split()]
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002338396205'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://telegram.me/MRxOfficialTeam')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002410408277').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://MRxTeam:MRxTeam@mrxteam.i63bk.mongodb.net/?retryWrites=true&w=majority&appName=MRxTeam")
