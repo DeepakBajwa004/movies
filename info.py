@@ -15,14 +15,14 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '27484185'))
 API_HASH = environ.get('API_HASH', '7a52fad60fd16e779bb2324778e5d8da')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8022877397:AAG_GXizV51nYPVjhikMv80Pkhh4YJShp44')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7644018455:AAHK7ichSbBY2iNSczS2cISx5x39KveatvU')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7077129266').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/masoom_jaatt") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002330381190'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+ogHhhiNxsu01NmQ1')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002378681854').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002410408277').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://MRxTeam:MRxTeam@mrxteam.i63bk.mongodb.net/?retryWrites=true&w=majority&appName=MRxTeam")
